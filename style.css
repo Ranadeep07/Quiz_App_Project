@@ -1,0 +1,42 @@
+body{
+    font-family: 'Comic Neue', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+.quiz-cont ul li{
+    list-style: none;
+}
+.quiz-cont{
+    -webkit-box-shadow: -2px -2px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px -2px 32px 0px rgba(0,0,0,0.75);
+    width: 35vw;
+    display: flex;
+    padding: 33px;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.quiz-cont input:hover{
+    cursor: pointer;
+}
+.quiz-cont ul label:hover{
+    cursor: pointer;
+}
+#btn{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    height: 40px;
+}
+#btn:hover{
+    transition-duration: 0.5s;
+    background-color: greenyellow;
+    color: black;
+}
+.text-align-center{
+    text-align: center;
+}
